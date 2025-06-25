@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="light">
+<head>
+    <!-- Metadados básicos para SEO e visualização | Basic metadata for SEO and display -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Seixas Rego | Portfólio</title>
+    
+    <!-- Ligação para o arquivo CSS externo | Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Fonte do Google para tipografia moderna | Google font for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones de Font Awesome | Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação | Header with navigation -->
+    <header>
+        <!-- Logotipo e nome | Logo and name -->
+        <div class="logo">
+            <!-- O span cria um elemento de destaque no logo | Span highlights part of the logo -->
+            <a href="#home">Igor<span>Rego</span></a>
+        </div>
+        
+        <!-- Menu de navegação | Navigation menu -->
+        <nav>
+            <!-- Botão para menu hamburguer em telas pequenas | Hamburger button for small screens -->
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+            <!-- Links de navegação | Navigation links -->
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Competências</a></li>
+                <li><a href="#education">Formação</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botão modo escuro | Button Dark Mode -->
+      <div class="theme-toggle">
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+</div>
+
+    </header>
+
+    <!-- Secção principal/inicial (Hero) | Main/initial section (Hero) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- Saudação inicial com animação de digitação | Initial greeting with typing animation -->
+            <h3 class="greeting">Olá, o meu nome é</h3>
+            <h1 class="name">Igor Seixas Rego</h1>
+            <h2 class="title">Desenvolvedor <span class="typing">Web</span></h2>
+            
+            <!-- Pequena descrição e botões de ação | Small description and action buttons -->
+            <p class="intro">Especializado em HTML, CSS e JavaScript, criando experiências web interativas e responsivas.</p>
+            
+            <!-- Ícones de redes sociais | Social media icons -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/igorr-fullstack/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/igorseixs/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=prDfqSpNbSqZCWBVpNfKmWNmsFBRTvKXGTmSckxpPmtsplglCGcqcjTbZsGlsrTPPfDjJvNPvRSTPgMgZLmhDVhZrNwHsnLVtSlwrnFrvPSrrrQLHhRvLGncMZvMmCDCzfzsNkjcSPVrWcRkFSBZNqnl" target="_blank"><i class="far fa-envelope"></i></a>
+                <a href="https://github.com/igor-rego/igor-rego" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        
+        <!-- Imagem do herói ou ilustração | Hero image or illustration -->
+        <div class="hero-image">
+            <div class="blob"></div>
+            <img src="IMG/igor2.jpeg" alt="Igor Seixas Rego">
+        </div>
+    </section>
+
+    <!-- Secção Sobre Mim | About Me section -->
+    <section id="about" class="about">
+        <div class="container">
+            <!-- Título da secção com sublinhado decorativo | Section title with decorative underline -->
+            <div class="section-title">
+                <h2>Sobre Mim</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="about-content">
+                <!-- Imagem do perfil com borda decorativa | Profile picture with decorative border -->
+                <div class="about-image">
+                    <img src="IMG/igor2.jpeg" alt="Foto de Igor">
+                </div>
+                
+                <!-- Informação pessoal e profissional | Personal and professional information -->
+                <div class="about-text">
+                    <h3>Quem sou eu?</h3>
+                    <p>Olá! O meu nome é Igor Seixas Rego, sou um desenvolvedor web apaixonado por criar soluções digitais elegantes e funcionais. Com formação em Gestão e Programação de Sistemas Informáticos, tenho me dedicado a aprimorar minhas habilidades em HTML, CSS e JavaScript.</p>
+                    
+                    <p>O meu objetivo é combinar design atraente com funcionalidades intuitivas para criar experiências web memoráveis. Estou constantemente a aprender novas tecnologias e técnicas para expandir meu conhecimento.</p>
+                    
+                    <!-- Informações pessoais em lista | Personal information in list format -->
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span>Nome:</span>
+                            <span>Igor Seixas Rego</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <span>igor.rego.dev@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Localização:</span>
+                            <span>Portugal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção de Competências | Skills section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <!-- Título da secção com sublinhado decorativo | Section title with decorative underline -->
+            <div class="section-title">
+                <h2>Minhas Competências</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="skills-content">
+                <!-- Texto introdutório | Introductory text -->
+                <p class="skills-intro">Estas são as principais tecnologias e ferramentas com as quais trabalho:</p>
+                
+                <!-- Grelha de competências | Skills grid -->
+                <div class="skills-grid">
+                    <!-- Cada cartão representa uma competência | Each card represents a skill -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Estruturação semântica e acessível de páginas web.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Estilização avançada com flexbox, grid e animações.</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Desenvolvimento de interatividade e funcionalidades dinâmicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção de Formação | Education section -->
+    <section id="education" class="education">
+        <div class="container">
+            <!-- Título da secção com sublinhado decorativo | Section title with decorative underline -->
+            <div class="section-title">
+                <h2>Formação Académica</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="education-content">
+                <!-- Linha do tempo para educação | Education timeline -->
+                <div class="timeline">
+                    <!-- Cada item representa um curso ou formação | Each item represents a course or training -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Curso de Gestão e Programação de Sistemas Informáticos</h3>
+                            <p class="timeline-date">2017 - 2020</p>
+                            <p>Formação completa em gestão e desenvolvimento de sistemas informáticos, com foco em programação, gestão de projetos e infraestrutura de TI.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Curso de HTML, CSS e JavaScript</h3>
+                            <p class="timeline-date">2024 - Presente</p>
+                            <p>Formação especializada em desenvolvimento web front-end, aprofundando conhecimentos em HTML5, CSS3 e JavaScript moderno.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção de Contacto | Contact section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            
+            <div class="contact-content">
+                <!-- Informações de contacto | Contact information -->
+                <div class="contact-info">
+                    <h3>Vamos Conversar</h3>
+                    <p>Estou disponível para novos projetos e oportunidades. Sinta-se à vontade para entrar em contacto.</p>
+                    
+                    <!-- Lista de contactos | Contact list -->
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Portugal</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>igor.rego.dev@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+351 934 031 790</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Ícones de redes sociais | Social media icons -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/igorr-fullstack/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/igorseixs/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=prDfqSpNbSqZCWBVpNfKmWNmsFBRTvKXGTmSckxpPmtsplglCGcqcjTbZsGlsrTPPfDjJvNPvRSTPgMgZLmhDVhZrNwHsnLVtSlwrnFrvPSrrrQLHhRvLGncMZvMmCDCzfzsNkjcSPVrWcRkFSBZNqnl" target="_blank"><i class="far fa-envelope"></i></a>
+                        <a href="https://github.com/igor-rego/igor-rego" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé | Footer -->
+    <footer>
+        <div class="container">
+            <!-- Copyright e créditos | Copyright and credits -->
+            <div class="footer-content">
+                <p>&copy; 2025 Igor Seixas Rego. Todos os direitos reservados.</p>
+            </div>
+            
+            <!-- Botão para voltar ao topo | Back to top button -->
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript | JavaScript script -->
+    <script src="script.js"></script>
+    <script src="dark.js"></script>
+
+</body>
+</html>
+
